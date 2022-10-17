@@ -20,7 +20,7 @@ defaults:
 
 jobs:
   entry:
-    if: github.repository == 'awslabs/ratex'
+    if: github.repository == 'hackerhero0x01/ratex'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
